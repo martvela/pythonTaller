@@ -1,7 +1,7 @@
-print("Conversor de dolares a pesos")
+print("Conversor de pesos a dolares")
 print("========================================")
-dollar = float(input("Inrese la cantidad en dolares:"))
-pesos:float=17.46
+pesos = float(input("Inrese la cantidad en pesos:"))
+dollar:float=0.057  #dolar esta a 0.057 pesos
 
-print(dollar, " dolares es igual a " , pesos*dollar, " pesos")
+print(pesos, " dolares es igual a " , pesos*dollar, " dolares")
 
