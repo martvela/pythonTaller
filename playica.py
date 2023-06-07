@@ -4,6 +4,6 @@ dinero= int(input("Cuanto dinero traes:"))
 
 if (mes == "junio"  and dinero >= 1000) and edad >= 18:
     print("Me voy a ir a la playa ")
-
+    #if mes== ?julio
 print("Chamaco miado")
 

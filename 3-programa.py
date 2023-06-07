@@ -9,5 +9,8 @@ print("adios")
 
 """
 jerarquia de operadores
-
+1) SUMA y resta 
+2) multiplicación y división
+3) potencias y raiz
+4) agrupadores 
 """
