@@ -6,4 +6,3 @@ cantidadManzanas:int = int(input("Ingrese la cantidad de las manzanas: "))
 print("Las manzanas estan en: " + str(precioDeManzana))
 print("La cantidad de manzanas es:", cantidadManzanas)
 print(f"Vas a pagar: {cantidadManzanas * precioDeManzana}")
-

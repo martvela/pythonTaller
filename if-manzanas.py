@@ -10,3 +10,4 @@ if cantidadManzanas > 10:
     descuento=(cantidadManzanas*precioDeManzana)*.10
     print(f"FELICIDADES tienes un descuento de {descuento}, pagaras {(cantidadManzanas*precioDeManzana)-descuento}")
     
+    

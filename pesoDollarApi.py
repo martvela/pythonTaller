@@ -2,7 +2,7 @@ import requests
 
 # Obtener las tasas de cambio más recientes de la API de Open Exchange Rates
 response = requests.get('https://openexchangerates.org/api/latest.json?app_id=TU-API')
-rates = response.json()['rates']
+rates = response.json()['rates'] #error en esta linea
 
 
 # Definir las tasas de conversión
