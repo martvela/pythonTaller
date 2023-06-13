@@ -1,6 +1,6 @@
-
-
-
+import os
+from time import sleep
+secs=3
 precioDeManzana:int = int(input("Ingrese el precio de la manzana: "))
 cantidadManzanas:int = int(input("Ingrese la cantidad de las manzanas: "))
 name:str=input("Cual es su nombre: ")
@@ -28,3 +28,6 @@ while cantidadManzanas != 0:
     else:
         print(f"Vas a pagar: {cantidadManzanas * precioDeManzana}")
     break
+
+sleep(secs)
+os.system("cls")

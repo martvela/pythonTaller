@@ -1,6 +1,10 @@
 phrase= str(input("Please type a phrase: "))
-vocales=["a","u","i","o","u"]
+
+comprobacionA= False
+
+
 
 for letter in phrase: 
-    
-    print(letter)
+    if 'a' in letter.lower() and comprobacionA == False:
+        print('a')
+        comprobacionA= True
