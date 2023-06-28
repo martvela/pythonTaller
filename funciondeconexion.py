@@ -1,6 +1,6 @@
 import mysql.connector
 opcionBaseDeDatos = 1
-def conectarbd():
+def conectarbd(opcionBaseDeDatos):
     if opcionBaseDeDatos == 1 :
         #Forma local
         host="localhost"
@@ -14,3 +14,12 @@ def conectarbd():
         user="Alumno6"
         passwd="AlumnoPython1@." 
         port = 4000
+        database='mini-siiau'
+        
+    conexion = mysql.connector.connect(
+    host=host,
+    user=user,
+    passwd=passwd,
+    port=port,
+    database=database)
+    return conexion
