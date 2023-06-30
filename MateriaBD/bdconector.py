@@ -1,5 +1,6 @@
 import mysql.connector
 selectorBaseDeDatos = 'local'
+
 def conexion(selectorBaseDeDatos):
     if selectorBaseDeDatos == 'local':
         #Base de datos local
